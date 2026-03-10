@@ -25,11 +25,12 @@ pipeline {
             steps {
                 bat '''
                 if not exist C:\\deploy-demo mkdir C:\\deploy-demo
-                copy index.html C:\\deploy-demo
+                copy jenkins_file.html C:\\deploy-demo
                 '''
             }
         }
     }
 
 }
+
 
