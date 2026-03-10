@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/madHur1mab/CI_CD/edit/main/jenkins_file'
+                git branch: 'main', url: 'https://github.com/madHur1mab/CI_CD.git'
             }
         }
 
@@ -32,3 +32,4 @@ pipeline {
     }
 
 }
+
